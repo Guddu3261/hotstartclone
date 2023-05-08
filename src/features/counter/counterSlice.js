@@ -69,5 +69,4 @@ export const incrementIfOdd = (amount) => (dispatch, getState) => {
     dispatch(incrementByAmount(amount));
   }
 };
-
 export default counterSlice.reducer;

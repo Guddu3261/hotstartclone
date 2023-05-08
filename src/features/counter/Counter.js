@@ -9,7 +9,6 @@ import {
   selectCount,
 } from './counterSlice';
 import styles from './Counter.module.css';
-
 export function Counter() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
